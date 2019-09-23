@@ -1,9 +1,9 @@
 # Classic Arcade Game Clone
 ## Table of Contents
 
-- [How do I start the game?](#How do I start the game?)
-- [How do I play this game?](#How do I play this game?)
-- [References](#How do I play this game?)
+- [How do I start the game?](#HowdoIstartthegame?)
+- [How do I play this game?](#HowdoIplaythisgame?)
+- [References](#References:)
 
 ## How do I start the game?
 
@@ -17,5 +17,5 @@ or...
 
 ## How do I play this game?
 
-# References:
+## References:
 - Insert references [here](https://url.com)
