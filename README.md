@@ -3,7 +3,7 @@
 
 - [How do I start the game?](#HowdoIstartthegame?)
 - [How do I play this game?](#HowdoIplaythisgame?)
-- [References](#References:)
+- [References](#References)
 
 ## How do I start the game?
 
