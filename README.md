@@ -12,7 +12,7 @@ Go to https://millus.github.io/3-Classic-Arcade-Game-Clone/ and start playing.
 or...
 
 1. Download this project
-2. Find the index.html in <your-path-to>/2-Memory-Game/index.html
+2. Find the index.html in <your-path-to>/3-Classic-Arcade-Game-Clone/index.html
 3. Open the "index.html"-file in your browser.
 
 ## How do I play this game?
