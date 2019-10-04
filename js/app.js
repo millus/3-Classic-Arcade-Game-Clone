@@ -36,11 +36,27 @@ function Player () {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
   }
   this.handleInput = function(key) {
-    if(key=='up'){
-      this.y = this.y-50;
-    }
-    if(key=='down'){
-      this.y = this.y+50;
+    switch(key) {
+      case 'up':
+        if(this.y>0){
+          this.y = this.y-50;
+        }
+        break;
+      case 'down':
+        if(this.y<420){
+          this.y = this.y+50;
+        }
+        break;
+      case 'left':
+        if(this.x>0){
+          this.x = this.x-50;
+        }
+        break;
+      case 'right':
+        if(this.x<400){
+          this.x = this.x+50;
+        }
+        break;
     }
   }
 }
