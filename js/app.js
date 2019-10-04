@@ -39,6 +39,9 @@ function Player () {
     if(key=='up'){
       this.y = this.y-50;
     }
+    if(key=='down'){
+      this.y = this.y+50;
+    }
   }
 }
 
