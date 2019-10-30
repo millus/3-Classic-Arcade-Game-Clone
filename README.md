@@ -16,6 +16,10 @@ or...
 3. Open the "index.html"-file in your browser.
 
 ## How do I play this game?
+- You move the player with your keyboard arrows, left, right, up and down
+- The enemies move at varying speeds on the paved block portion of the game board
+- If you collide with an enemy, the game is reset and your player character moves back to the starting square
+- How do I win? Once you reach the water (i.e., the top of the game board), then you have won the game.
 
 ## References:
 - Insert references [here](https://url.com)
