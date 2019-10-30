@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.893388%" y1="6.73536614%" x2="52.0769563%" y2="97.032416%" id="linearGradient-1">
+            <stop stop-color="#E489FF" offset="0%"></stop>
+            <stop stop-color="#059FFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M23.5,3 C29,3 47,32 44,36 C42.9457885,37.4056154 38.0635524,38.3172921 32.0002638,38.7350302 L32,66 C32,68.209139 30.209139,70 28,70 L20,70 C17.790861,70 16,68.209139 16,66 L15.9994097,38.7559362 C9.6908413,38.3481909 4.42954545,37.4295455 3,36 C-1,32 18,3 23.5,3 Z" id="path-2"></path>
+        <filter x="-34.6%" y="-21.6%" width="159.5%" height="137.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-2" dy="-2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0644132854   0 0 0 0 0.156306612  0 0 0 0.56441215 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(35.500000, 35.500000) rotate(-180.000000) translate(-35.500000, -35.500000) translate(13.000000, 0.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#161616" stroke-width="2" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="light/shadow">
+                <path d="M14.6535243,38.9895643 C15.5409056,38.9895643 16.9822329,40.47593 17.2490651,38.9657773 C17.4134123,38.0356444 22.0558441,28.1058172 21.3847399,21.0522016 C20.5375782,12.1481398 17.3142476,2.3555259 17.2526105,1.22985293 C17.1134062,-1.31242592 15.2515668,4.54227456 14.7084662,2.81961073 C13.827455,0.0251261026 15.9200229,2.98956432 14.6535243,2.98956432 C11.8921006,2.98956432 9.65352431,11.0484388 9.65352431,20.9895643 C9.65352431,30.9306898 11.8921006,38.9895643 14.6535243,38.9895643 Z" id="Oval" fill-opacity="0.2" fill="#FDFDFD" transform="translate(15.552273, 20.111520) rotate(32.000000) translate(-15.552273, -20.111520) "></path>
+                <ellipse id="Oval" fill-opacity="0.85" fill="#FDFDFD" transform="translate(18.119677, 13.607808) rotate(32.000000) translate(-18.119677, -13.607808) " cx="18.1196771" cy="13.6078076" rx="1" ry="6"></ellipse>
+                <path d="M19,64 C20,64 20,58.1797017 20,51 C20,43.8202983 20,38 19,38 C18,38 18,43.8202983 18,51 C18,58.1797017 18,64 19,64 Z" id="Oval" fill-opacity="0.85" fill="#FFFFFF"></path>
+                <path d="M30,70 C31.1045695,70 32,62.836556 32,54 C32,48.2986988 32.5611695,40.8337561 32,38 C31.9258751,37.6256889 41.6347408,38.6020609 44,36 C46.3942006,33.3661002 42.2795178,27.8385533 42,27 C41.2848238,24.8544713 27.1670557,5.06682425 26,4 C24.8512288,2.94988986 25.8513553,5.73676964 27,8 C27.9477556,9.86740882 32,16 36,22 C40,28 40.7331317,33.4615894 40,34 C36.7642104,36.3763579 30,34 28,36 C26,38 28,45.163444 28,54 C28,57.2927936 28.1651947,61.8376676 27,65 C26.0928687,67.4619499 23.7431317,68.7794103 24,70 C24.2986252,71.4190103 29.6274693,70 30,70 Z" id="Oval" fill-opacity="0.35" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

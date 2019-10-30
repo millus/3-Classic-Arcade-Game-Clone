@@ -101,3 +101,21 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
+// Added buttons so one can play the game on mobile
+
+const controllersHTML = `<section class="controllers">
+  <img class="btn" src="images/down.svg" alt="down">
+  <img class="btn" src="images/left.svg" alt="left">
+  <img class="btn" src="images/right.svg" alt="right">
+  <img class="btn" src="images/up.svg" alt="up">
+</section>`;
+
+document.body.insertAdjacentHTML( 'beforeend', controllersHTML);
+const controllers = document.querySelector('.controllers');
+
+controllers.addEventListener('click', function(e) {
+  if(e.target.classList.contains('btn')) {
+    player.handleInput(e.target.alt);
+  }
+});
