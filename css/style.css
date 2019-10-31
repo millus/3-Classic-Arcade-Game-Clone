@@ -5,13 +5,15 @@
 body {
     text-align: center;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #113258;
 }
 
 canvas {
-  border: 5px solid black;
   border-radius: 8px;
   width: 100%;
-  max-width: 600px;
+  margin: 0 auto;
 }
 
 .controllers {
@@ -20,16 +22,28 @@ canvas {
   align-content: space-between;
   margin: 0 auto;
   list-style-type: none;
-  max-width: 400px;
   width: 100%;
   padding: 0;
-  bottom: 10px;
+  bottom: 1%;
+  position: fixed;
 }
 
 .btn {
-  margin: 10px;
+  margin: 0;
   display: flex;
-  padding: 20px;
-  width: 20%;
+  padding: 5%;
+  width: 30%;
   text-align: center;
+  min-width: 40px;
+}
+
+@media screen and (min-width: 700px) {
+  canvas {
+    max-width: 550px;
+  }
+
+  .controllers {
+    max-width: 600px;
+    display:none;
+  }
 }
