@@ -26,6 +26,7 @@ canvas {
   padding: 0;
   bottom: 1%;
   position: fixed;
+  touch-action: manipulation;
 }
 
 .btn {
