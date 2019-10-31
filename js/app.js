@@ -44,7 +44,7 @@ class Enemy extends Character {
 // a handleInput() method.
 class Player extends Character {
 
-  constructor(x = 200, y = 420) {
+  constructor(x = 200, y = 410) {
     super(x,y);
     this.sprite = 'images/char-pink-girl.png';
   }
@@ -57,22 +57,22 @@ class Player extends Character {
     switch(key) {
       case 'up':
         if(this.y>0){
-          this.y = this.y-50;
+          this.y = this.y-90;
         }
         break;
       case 'down':
-        if(this.y<420){//TODO: find out player width, and use ctx.canvas.height
-          this.y = this.y+50;
+        if(this.y<410){//TODO: find out player width, and use ctx.canvas.height
+          this.y = this.y+90;
         }
         break;
       case 'left':
         if(this.x>0){
-          this.x = this.x-50;
+          this.x = this.x-100;
         }
         break;
       case 'right':
         if(this.x<400){
-          this.x = this.x+50;
+          this.x = this.x+100;
         }
         break;
     }
@@ -85,7 +85,7 @@ class Player extends Character {
 let player = new Player();
 let enemy1 = new Enemy(100,150);
 let enemy2 = new Enemy(200,50,4);
-let enemy3 = new Enemy(20,220,4);
+let enemy3 = new Enemy(20,220,2);
 let allEnemies = [enemy1, enemy2, enemy3];
 
 

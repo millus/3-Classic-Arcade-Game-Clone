@@ -14,6 +14,20 @@ canvas {
   border-radius: 8px;
   width: 100%;
   margin: 0 auto;
+  padding: 0;
+  -webkit-box-shadow: 2px 4px 60px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 60px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 60px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+  font-family: 'Bowlby One SC', cursive;
+  color: #059fff;
+  letter-spacing: 2px;
+  font-size: 3em;
+  margin: 24px auto;
+  padding: 0;
+  line-height: 1em;
 }
 
 .controllers {
@@ -44,6 +58,10 @@ canvas {
     max-width: 550px;
   }
 
+  .title {
+    margin: 24px auto;
+  }
+  
   .controllers {
     max-width: 600px;
     display:none;
