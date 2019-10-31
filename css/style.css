@@ -35,6 +35,7 @@ canvas {
   width: 30%;
   text-align: center;
   min-width: 40px;
+  touch-action: manipulation;
 }
 
 @media screen and (min-width: 700px) {
